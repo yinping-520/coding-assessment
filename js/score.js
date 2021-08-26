@@ -13,10 +13,10 @@ function getScoreFromLocalStorage() {
         console.log(combined);
         var liEl = document.createElement("li");
         liEl.textContent = combined;
-        displayPage.appendChild(liEl);
+        displayList.appendChild(liEl);
     }
     
 };
-displayPage.setAttribute("style", "font-size: 100px; padding:3px; list-style:none; display:flex;  flex-direction: column; background-color:lightblue; border: 3px dotted green; margin-top:10px")
+displayList.setAttribute("style", "font-size: 100px; padding:3px; list-style:none; display:flex;  flex-direction: column; background-color:lightblue; border: 3px dotted green; margin-top:10px")
 
 getScoreFromLocalStorage()
