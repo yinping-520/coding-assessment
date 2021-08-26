@@ -30,7 +30,7 @@ main div{
     display:grid;
     padding:10px;
 }
-#question-container{
+.question-container{
     background-color: cadetblue;
 }
 #question{
