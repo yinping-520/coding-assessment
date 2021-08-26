@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/index.css" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="tracker">
+        <h1 class="score">View Highscore</h1>
+        <h1 class="timer">Time:</h1>
+            <p id="time" ></p>
+    </header>
+
+    <main class="container">
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-btns" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div class="control">
+            <h2>Coding Quiz Challenges</h2>
+            <p>Please read the questions and options carefully and choose the appropriate answer. Click the answer and you will be moved to the next questions. Good luck!</p>
+            <button id="start-btn">Start</button>
+        </div>
+
+        <div id="feedback"></div>
+    </main>
+        
+    <div >
+        <form id="form" class="hide" method="POST">
+            <label for="name"> Enter Your Initials </label>
+            <input type="text" id="name" name="name">
+            <button id="submit">Submit</button>
+        </form>
+        
+        <div id="score">
+            
+        </div>
+        
+    </div>
+
+        
+
+
+    <script src="./js/javascript.js" rel="script" type="text/javascript"></script>
+</body>
+
+</html>
